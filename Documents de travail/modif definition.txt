@@ -1,0 +1,118 @@
+balise IMg
+
+<p>
+<xml>La balise <img> permet d'insérer d'insérer une image dans une page HTML<br>
+     La balise a deux attributs scr st alt <br>
+     src="nom du fichier" : emplacement et nom de l'image à afficher <br>
+     alt="text" : affiche ce texte lorsque l'image n'est pas affichable ou lorsque la souris reste pointée dessus                                                     
+</xml>
+</p>
+
+<p>
+<xmp><img src="smiley.gif" alt="Smiley face"> </xmp>
+<br>aura pour résultat d'afficher : <br>  <img src="smiley.gif" alt="Smiley face">    
+</p>
+
+balise A
+
+<p>
+Cette balise permet de créer une ancre pour liens hypertexte
+Le plus important attribut de la balise <a> est l'attribu href, qui indique le lien à ouvrir<br>
+Par défaut, les liens apparaissent comme ceci dans les navigateurs :<br>
+Un lien non visité est surligné en bleu<br>
+Un lien visité est surligné en violet<br>
+Un lien actif est surligné en rouge
+</p>
+
+<p>
+<xmp>Un lien vers W3Schools.com:
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a> </xmp>
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+</p>
+
+balise h
+
+<p>
+Les balises de h1 à h6 definissent les niveaux de titre<br>
+La balise h1 est la plus importante et la balise h6 est la moins importante
+</p>
+
+<p>
+Les six niveaux de titre en HTML:<br>
+    <xml><h1>Titre 1</h1></xml> <h1>Visuel Titre 1</h1><br>
+    <xml><h2>Titre 2</h2></xml> <h2>Visuel Titre 2</h2><br>
+    <xml><h3>Titre 3</h3></xml> <h3>Visuel Titre 3</h3><br>
+    <xml><h4>Titre 4</h4></xml> <h4>Visuel Titre 4</h4><br>
+    <xml><h5>Titre 5</h5></xml> <h5>Visuel Titre 5</h5><br>
+    <xml><h6>Titre 6</h6></xml> <h6>Visuel Titre 6</h6><br>
+</p>
+
+balise commentaire
+
+<p>
+Le commentaire est utilisé pour donner des indications dans le code source<br>
+Les commentaires sont utiles pour la bonne compréhension du code source pour les développeurs<br>
+Le commentaire n'apparait pas sur la page dans le navigateur
+</p>
+
+<p>
+<xmp>
+Voici un commentaire dans un fichier HTML:
+<!--This is a comment. Comments are not displayed in the browser-->
+</xmp>  
+</p> 
+
+balise form
+
+<p>
+<xmp>
+La balise <form> est utilisée pour insérer un formulaire
+          
+            La balise encadre les balises suivantes :
+                <input>
+                <textarea>
+                <button>
+                <select>
+                <option>
+                <optgroup>
+                <fieldset>
+                <label>
+</xmp>
+</p>
+
+<p>
+<xmp>
+Une balise FORM avec deux champs d'entrée et un bouton SUBMIT:<br>
+<form action="/action_page.php" method="get"> 
+	First name: <tinput type="text" name="fname"><br> <br>
+	Last name: <input type="text" name="lname"><br> <br>
+	<input type="submit" value="Submit"><br>
+</form>
+
+donnera le résultat suivant : <br>
+</xmp>
+   <form action="/action_page.php" method="get">
+   	First name: <input type="text" name="fname"><br>
+   	Last name: <input type="text" name="lname"><br>
+   	<input type="submit" value="Submit">
+   </form> 
+</p>
+
+
+balise input
+
+        <p><xmp>
+La balise <submit> définie un champs de saisie dans un formulaire</xmp><br>
+<br>
+La balise encadre les balises suivantes :<br>
+                &ltinput&gt<br>
+                &lttextarea&gt<br>
+                &ltbutton&gt<br>
+                &ltselect&gt<br>
+                &ltoption&gt<br>
+                &ltoptgroup&gt<br>
+                &ltfieldset&gt<br>
+                &ltlabel&gt<br>
+            <br>
+        </p>
+

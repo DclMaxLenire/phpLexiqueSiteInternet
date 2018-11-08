@@ -1,0 +1,121 @@
+
+a{
+        color: black;
+}
+
+h2{
+    font-family: quicksand ;
+    font-size: 25px;
+    color: rgb(7, 6, 12) ;  
+    font-weight: bold;
+   }
+
+.link {
+	margin: auto;
+}
+
+li a:hover { 
+    background-color: blue;
+}
+
+header   {
+    border: 3px solid rgb(51, 52, 53);
+    background: rgb(159, 161, 161);
+    border-radius: 10px; 
+    margin-bottom: 80px;
+    padding-right: 35px;
+   }
+
+.menu {
+    text-align: center;
+    font-family: quicksand;
+    font-size: 40px;
+    color: rgb(7, 6, 12) ;
+       }
+
+.image{
+    margin: auto;
+    padding: auto;
+    display: block;
+    width: 300px;
+    height: 150px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #CFFFFF;
+	color: black;
+}
+
+ul {
+       list-style-type: none;*
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: #333;
+}
+
+img {
+	width: 10%;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition:         transform .8s ease-in-out;
+  }
+img:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.definition {
+    border: 3px solid rgb(51, 52, 53);
+    background: rgb(159, 161, 161);
+    border-radius: 10px; 
+    font-family: quicksand;
+    font: size 30px;
+    width: 48%;
+    min-height: 340px;
+    float:left;
+    
+}
+
+.exemple {
+    border: 3px solid rgb(51, 52, 53);
+    background: rgb(159, 161, 161);
+    border-radius: 10px; 
+    font-family: quicksand;
+    font: size 30px;
+    width: 48%;
+    min-height: 340px;
+    float: right;
+   }
+
+footer{
+    width: 98.5%;
+    border: 3px solid rgb(51, 52, 53);
+    background: rgb(159, 161, 161);
+    border-radius: 10px;  
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+.aff{
+    font-family: quicksand;
+    font: size 30px;   
+}
